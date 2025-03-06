@@ -25,7 +25,7 @@ public class Main{
 		System.out.println("Cantidad de cursos con una duración menor a 2 horas: " + cantidadDuracionMenos);
 
 		// Listar el título de todos aquellos cursos con una cantidad de vídeos mayor a
-		// 50.
+		// Cincuenta.
 		System.out.println("Los cursos con una cantidad de vídeos mayor a 50: ");
 
 		List<String> titulosMayores = cursos.stream().filter(video -> video.getVideos() > 50)
